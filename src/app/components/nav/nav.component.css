@@ -1,0 +1,18 @@
+.container {
+    background-color: transparent;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10%;;
+}
+
+.item {
+    color: black;
+    padding: 20px 1.5% 20px 1.5%;
+    font-size: 1em;
+}
+
+.item:hover{
+    background-color: #d2d2d2;
+    color: white;
+}
