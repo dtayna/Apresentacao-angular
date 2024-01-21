@@ -1,6 +1,27 @@
 <div ngClass="container">
     <h2>Projetos</h2>
     <div ngClass="texts">
-        <p>isso é um teste ein</p>
+        <p>Seguem alguns dos projetos que desenvolvi durante minha graduação e que estão no meu GitHub.</p>
+    <div ngClass="projects">
+        <app-project-card 
+        [name]="'Site da SUEF'"
+        [image]="'assets/projetosuef1.png'"
+        [repository]="'https://github.com/dtayna/Apresentacao-angular'"
+        [description]="'Frontend desenvolvido com React para setor da SUEF na secretaria de educação.'"></app-project-card>
+      
+        <app-project-card 
+        [name]="'Frontend: Gerenciador de Finanças'"
+        [image]="'assets/frontfinancas.png'"
+        [repository]="'https://github.com/dtayna/Apresentacao-angular'"
+        [description]="'Frontend de um gerenciador de finanças, desenvolvido com React para integração com API. '"></app-project-card>
+          
+        <app-project-card 
+        [name]="'TODOList'"
+        [image]="'assets/projetotodo.jpg'"
+        [repository]="'https://github.com/dtayna/Apresentacao-angular'"
+        [description]="'Gerenciador de lista de tarefas desenvolvido com NodeJS. Permite cadastrar pessoas e tarefas e realizar atribuições.'"></app-project-card>
+          
+       
+    </div>
     </div>
 </div>

@@ -12,6 +12,7 @@ import { AboutmeSessionComponent } from './components/aboutme-session/aboutme-se
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { TecnologiesSessionComponent } from './components/tecnologies-session/tecnologies-session.component';
 import { ProjectsSessionComponent } from './components/projects-session/projects-session.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProjectsSessionComponent } from './components/projects-session/projects
     AboutmeSessionComponent,
     ProgressBarComponent,
     TecnologiesSessionComponent,
-    ProjectsSessionComponent
+    ProjectsSessionComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
