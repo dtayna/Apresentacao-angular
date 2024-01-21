@@ -28,3 +28,8 @@ a{
     text-indent: 2em;
     line-height: 1.3em;
  }
+
+ .icons{
+     height: 16px;
+     width: 16px;
+ }

@@ -6,6 +6,7 @@
     background-color: #111111;
     max-width: 300px;
     max-height: 300px;
+    text-align: left;
    
 }
 
@@ -20,6 +21,11 @@ h4{
 
 a{
     line-height: 1em;
-    color:#ffff56
+    color:#ffff56;
+    font-size: 0.8em;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 

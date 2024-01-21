@@ -1,0 +1,47 @@
+.container{
+    background-color: white;
+    color: #101010;
+    margin: 0px;
+    padding: 40px 10% 40px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+}
+
+tr{
+    text-align: center;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-indent: 0;
+    text-decoration: underline;
+}
+
+a:hover{
+    font-weight: bold;
+
+    
+}
