@@ -1,6 +1,6 @@
 .container{
     background-color: #101010;
-    color: white;
+    color: #d3d3d3;
     margin: 0px;
     padding: 20px 10% 20px 10%;
     display: flex;
@@ -9,18 +9,6 @@
     align-items: center;
 }
 
-.texts{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: justify;
-   text-indent: 2em;
-}
-
-.center{
-    text-align: center;
-}
 
 .tables{
     display: flex;

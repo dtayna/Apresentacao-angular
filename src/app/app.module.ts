@@ -10,6 +10,8 @@ import { PresentationCardComponent } from './components/presentation-card/presen
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AboutmeSessionComponent } from './components/aboutme-session/aboutme-session.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { TecnologiesSessionComponent } from './components/tecnologies-session/tecnologies-session.component';
+import { ProjectsSessionComponent } from './components/projects-session/projects-session.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     HeaderComponent,
     PresentationCardComponent,
     AboutmeSessionComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    TecnologiesSessionComponent,
+    ProjectsSessionComponent
   ],
   imports: [
     BrowserModule,

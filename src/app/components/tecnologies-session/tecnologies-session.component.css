@@ -1,0 +1,25 @@
+.container{
+    background-color: white;
+    color: #101010;
+    margin: 0px;
+    padding: 20px 10% 20px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+}
+
