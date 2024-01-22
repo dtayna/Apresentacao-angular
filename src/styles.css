@@ -19,15 +19,33 @@ a{
     text-align: center;
 }
 
+@media (min-width: 768px) {
+   
 .texts{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    text-indent: 2em;
+    text-indent: 0em;
     line-height: 1.3em;
  }
+
+}
+
+@media (max-width: 768px) {
+   
+    .texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        text-indent: 0em;
+        line-height: 1.3em;
+     }
+     
+    }
 
  .icons1{
      height: 16px;
