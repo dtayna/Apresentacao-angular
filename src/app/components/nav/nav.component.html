@@ -7,3 +7,18 @@
         <a href="#contato" ngClass="item"><div>Contato</div></a>
     </nav>
 </div>
+<div ngClass="fixedsm">
+<nav ngClass="hamburger">
+    <div (click)="openMenu()"><img ngClass="menu" src="assets/menu.png"/></div>
+</nav>
+
+</div>
+<div *ngIf="showMenu" ngClass="containersm">
+    <br>
+    <a (click)="openMenu()" href="#sobre" ngClass="itemsm"><div>Sobre</div></a>
+    <a (click)="openMenu()" href="#tecnologias" ngClass="itemsm"><div>Tecnologias</div></a>
+    <a (click)="openMenu()" href="#projetos" ngClass="itemsm"><div>Projetos</div></a>
+    <a (click)="openMenu()" href="#contato" ngClass="itemsm"><div>Contato</div></a>
+    <a (click)="openMenu()" target="blank" href="https://github.com/dtayna" ngClass="itemsm"><div><img ngClass="icons1" src="assets/github.png"/> </div></a>
+</div>
+
