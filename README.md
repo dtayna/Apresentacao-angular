@@ -1,5 +1,7 @@
 # Apresentacao-angular
 
+![Screenshot from 2024-01-21 22-07-25](https://github.com/dtayna/Apresentacao-angular/assets/51178605/a593b4b2-0005-40b7-9c19-4716cadaaddd)
+
 ## Acesse em: https://dtayna.github.io/Apresentacao-angular/
 
 ### Sobre o Projeto
